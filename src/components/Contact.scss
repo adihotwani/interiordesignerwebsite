@@ -1,0 +1,179 @@
+.contact-header {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3rem;
+  font-family: fantasy;
+  color: #fff;
+  
+  
+ 
+}
+
+.contact-container {
+
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.contact-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .contact-image1, .contact-image2, .contact-image3, .contact-image4 {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    box-shadow: 0 0 2rem black;
+    border-radius: 40px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.contact-message {
+  
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 300px;
+ margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  
+  h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color:#fff;
+  }
+  
+  p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color:#fff;
+  }
+  
+  button {
+  
+  
+  right: 1rem;
+  font-size: 1.5rem;
+  color:#fff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  }
+  @media (max-width: 768px) {
+
+  margin-left: 0px;
+  
+  
+  h1 {
+    flex-wrap: wrap;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  }
+  
+  p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  }
+  
+  button {
+  
+  
+  right: 1rem;
+  font-size: 1.5rem;
+  color: black;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  }
+  }
+  
+  }
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+
+   form {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.719);
+    width: 350px;
+    background-color: #fff;
+    border-radius: 60px;
+    padding: 20px;
+    
+  
+    .form-group {
+      margin-bottom: 20px;
+      border-bottom: 1px solid black;
+  
+      input,
+      textarea {
+        padding: 10px;
+       
+        border: none;
+        font-size: 16px;
+        width: 100%;
+       
+        &:focus {
+          outline: none;
+          border-color: blue;
+        }
+      }
+  
+      textarea {
+        height: 150px;
+      }
+    }
+   
+ 
+
+    button[type="submit"] {
+      background-color: blue;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      font-size: 16px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: darkblue;
+
+      }
+    }
+    @media (max-width: 768px) {
+      margin-left: 0px;
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
