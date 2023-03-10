@@ -30,9 +30,12 @@ import whatsapp from '../assets/whatsapp.png';
 import house11 from '../assets/house11.jpg';
 import house10 from '../assets/house10.jpg';
 import house4 from '../assets/house4.jpg';
+import location from '../assets/location.png';
+
 
 
 export default {
+   location,
    house4,
    house11,
    house10,

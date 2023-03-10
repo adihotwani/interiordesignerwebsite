@@ -7,8 +7,9 @@ import './Portfolio.scss'
 const Portfolio = (props) => {
   return (
     <div className="portfolio">
-      <h3>Portfolio</h3>
+      
       <div className='row'>
+      <h3>Portfolio</h3>
         <div>
           <h4>Offices</h4>
           <div className="card">

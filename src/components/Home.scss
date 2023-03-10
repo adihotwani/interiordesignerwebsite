@@ -22,10 +22,10 @@ img {
   object-fit: contain; // This will make the image fit inside the container without stretching or distorting
 }
 .message-container{
-  width: 1346px;
+  width:100%;
   background-color: rgba(255, 255, 255, 0.945);
   margin-top: -450px;
-  margin-left: -10px;
+  margin-left: 100px;
   font-weight: bold;
   z-index: 1;
   height: 500px;
@@ -33,7 +33,7 @@ img {
     width: 20px;
     color: black;
     border: none;
-    margin-left: 1300px;
+    margin-left: 1090px;
     
     z-index: 1;
     
@@ -44,7 +44,7 @@ img {
     font-size: 1.5rem;
     margin-left: 10px;
   }
-  @media (max-width:768px) {
+  @media (max-width:650px) {
     
       display: none;
     }

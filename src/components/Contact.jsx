@@ -41,28 +41,46 @@ const Contact = () => {
 
       <div className="contact-container">
         <div className="contact-images">
+          
+            <img
+              className="contact-image4 "
+              src={images.location}
+              alt="Example Image"
+            /><p className="para1">No 37,2nd floor Anandapura K.R. Puram,
+              <br></br> Bangalore KA, 560036</p>
+          
           <a href="https://www.instagram.com/dev_interiorsblr/">
             {" "}
             <img
               className="contact-image1 "
               src={images.instagram}
               alt="Example Image"
+              
             />
-          </a>
+            
+            
+          </a><p className="para2">@dev_interiorsblr
+          </p>
+          
           <a href="tel:+917090090064">
             <img
               className="contact-image2 "
               src={images.phone}
               alt="Example Image"
             />
-          </a>
+          </a><p className="para2">
+          +917090090064
+          </p>
+          
           <a href="https://api.whatsapp.com/send?phone=9206603084">
             <img
               className="contact-image3 "
               src={images.whatsapp}
               alt="Example Image"
             />
-          </a>
+          </a><p className="para2">
+          +917090090064
+          </p>
         </div>
 
         {formSubmitted ? ( // render message if form is submitted
